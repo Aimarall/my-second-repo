@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
 .button {
+    background-color: hsl(40, 100%, 45%);
+    color: white;
+    border: 1px hsl(40, 100%, 45%);
     display: inline-block;
     border-radius: 4px;
     padding: 6px 12px 6px 12px;
+
     font-size: 16px;
-    background-color: hsl(40, 100%, 45%);
-    border: hsl(40, 100%, 45%);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    
 }
