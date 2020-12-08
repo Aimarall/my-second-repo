@@ -26,3 +26,27 @@
 .button:focus {
     outline: none;
 }
+.button.ok {
+    background-color:  hsl(110, 100%, 45%);
+    border: 1px hsl(110, 100%, 40%);
+}
+.button.ok:hover {
+    background-color:  hsl(110, 100%, 35%);
+    border: 1px hsl(110, 100%, 35%);
+}
+.button.ok:active {
+    background-color:  hsl(110, 100%, 40%);
+    border: 1px hsl(110, 100%, 40%);
+}
+.button.danger {
+    background-color:  hsl(0, 100%, 45%);
+    border: 1px hsl(0, 100%, 40%);
+}
+.button.danger:hover {
+    background-color:  hsl(0, 100%, 35%);
+    border: 1px hsl(0, 100%, 35%);
+}
+.button.danger:active {
+    background-color:  hsl(0, 100%, 40%);
+    border: 1px hsl(0, 100%, 40%);
+}
